@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <style>  
+    
+    </style>
+</head>
+
+<body>
+    <div class="">
+    <h1>Subir Imagenes</h1>
+    <form enctype="multipart/form-data" action="guardarimagenes.php" method="POST">
+    
+        
+        <input type="hidden" name="MAX_FILE_SIZE" value="200000"/> 
+         <label>Elija un fichero</label>
+       
+        <input type="file" name="fichero[]" multiple/>
+        <input type="submit" value="Enviar"/>
+    </form>
+    </div>
+
+</body>
+
+</html>
